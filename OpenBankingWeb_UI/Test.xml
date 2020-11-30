@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+
+			<class name="testcases.LoginLogout"/>
+			<class name="testcases.OpenData"/>
+			<class name="testcases.LinkBankMerchants"/>
+			<class name="testcases.Accounts"/>
+			<class name="testcases.Transactions"/>
+			<class name="testcases.StandingOrder"/>
+			<class name="testcases.SingleImmediatePayments"/>
+			<class name="testcases.Activity"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

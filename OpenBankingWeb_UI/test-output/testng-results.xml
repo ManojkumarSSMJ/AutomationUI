@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="21" total="29" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-12T11:48:29 IST" name="Suite" finished-at="2020-11-12T11:54:08 IST" duration-ms="338315">
+    <groups>
+    </groups>
+    <test started-at="2020-11-12T11:48:29 IST" name="Test" finished-at="2020-11-12T11:54:08 IST" duration-ms="338315">
+      <class name="testcases.LoginLogout">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.LoginLogout@45c7e403]" started-at="2020-11-12T11:48:27 IST" name="beforeSuite" finished-at="2020-11-12T11:48:29 IST" duration-ms="2801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.LoginLogout@45c7e403]" started-at="2020-11-12T11:48:30 IST" name="setData" finished-at="2020-11-12T11:48:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.LoginLogout@45c7e403]" started-at="2020-11-12T11:48:30 IST" name="beforeClass" finished-at="2020-11-12T11:48:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.LoginLogout@45c7e403]" started-at="2020-11-12T11:48:30 IST" name="beforeMethod" finished-at="2020-11-12T11:48:30 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginAndLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginLogout@45c7e403]" started-at="2020-11-12T11:48:30 IST" name="loginAndLogout" data-provider="fetchData" finished-at="2020-11-12T11:49:25 IST" duration-ms="55092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8091/yapilyopenbanking]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aib]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Select Role]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndLogout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.LoginLogout@45c7e403]" started-at="2020-11-12T11:54:08 IST" name="afterTest" finished-at="2020-11-12T11:54:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.LoginLogout@45c7e403]" started-at="2020-11-12T11:54:08 IST" name="afterSuite" finished-at="2020-11-12T11:54:09 IST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.LoginLogout -->
+      <class name="testcases.Accounts">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.Accounts@1ff4931d]" started-at="2020-11-12T11:48:30 IST" name="setData" finished-at="2020-11-12T11:48:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.Accounts@1ff4931d]" started-at="2020-11-12T11:51:22 IST" name="beforeClass" finished-at="2020-11-12T11:51:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Accounts@1ff4931d]" started-at="2020-11-12T11:51:22 IST" name="beforeMethod" finished-at="2020-11-12T11:51:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Accounts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Accounts@1ff4931d]" started-at="2020-11-12T11:51:22 IST" name="Accounts" data-provider="fetchData" finished-at="2020-11-12T11:52:00 IST" duration-ms="38165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8091/yapilyopenbanking]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aib]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Select Role]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accounts -->
+      </class> <!-- testcases.Accounts -->
+      <class name="testcases.LinkBankMerchants">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.LinkBankMerchants@710f4dc7]" started-at="2020-11-12T11:48:30 IST" name="setData" finished-at="2020-11-12T11:48:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.LinkBankMerchants@710f4dc7]" started-at="2020-11-12T11:50:03 IST" name="beforeClass" finished-at="2020-11-12T11:50:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.LinkBankMerchants@710f4dc7]" started-at="2020-11-12T11:50:03 IST" name="beforeMethod" finished-at="2020-11-12T11:50:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ListOfBanks(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LinkBankMerchants@710f4dc7]" started-at="2020-11-12T11:50:03 IST" name="ListOfBanks" data-provider="fetchData" finished-at="2020-11-12T11:51:22 IST" duration-ms="79208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8091/yapilyopenbanking]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aib]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[September]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[mits]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[mits]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Select Role]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListOfBanks -->
+      </class> <!-- testcases.LinkBankMerchants -->
+      <class name="testcases.SingleImmediatePayments">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.SingleImmediatePayments@6ad82709]" started-at="2020-11-12T11:48:30 IST" name="setData" finished-at="2020-11-12T11:48:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.SingleImmediatePayments@6ad82709]" started-at="2020-11-12T11:52:23 IST" name="beforeClass" finished-at="2020-11-12T11:52:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.SingleImmediatePayments@6ad82709]" started-at="2020-11-12T11:52:24 IST" name="beforeMethod" finished-at="2020-11-12T11:52:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SingleImmediatePayment(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SingleImmediatePayments@6ad82709]" started-at="2020-11-12T11:52:24 IST" name="SingleImmediatePayment" data-provider="fetchData" finished-at="2020-11-12T11:53:57 IST" duration-ms="93864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8091/fssopenbanking]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aib]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AIB Sandbox - 93804100001059]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Airtel]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9750387825]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Select]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[!~@#$%^&*]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ABCD]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[+19750387825]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleImmediatePayment -->
+      </class> <!-- testcases.SingleImmediatePayments -->
+      <class name="testcases.Activity">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.Activity@510f3d34]" started-at="2020-11-12T11:48:30 IST" name="setData" finished-at="2020-11-12T11:48:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.Activity@510f3d34]" started-at="2020-11-12T11:53:57 IST" name="beforeClass" finished-at="2020-11-12T11:53:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Activity@510f3d34]" started-at="2020-11-12T11:53:57 IST" name="beforeMethod" finished-at="2020-11-12T11:53:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginAndLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Activity@510f3d34]" started-at="2020-11-12T11:53:57 IST" name="loginAndLogout" data-provider="fetchData" finished-at="2020-11-12T11:54:08 IST" duration-ms="10362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8091/yapilyopenbanking]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aib]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AIB]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[InvalidSearch]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndLogout -->
+      </class> <!-- testcases.Activity -->
+      <class name="testcases.StandingOrder">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.StandingOrder@61322f9d]" started-at="2020-11-12T11:48:30 IST" name="setData" finished-at="2020-11-12T11:48:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.StandingOrder@61322f9d]" started-at="2020-11-12T11:52:11 IST" name="beforeClass" finished-at="2020-11-12T11:52:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.StandingOrder@61322f9d]" started-at="2020-11-12T11:52:11 IST" name="beforeMethod" finished-at="2020-11-12T11:52:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginAndLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.StandingOrder@61322f9d]" started-at="2020-11-12T11:52:11 IST" name="loginAndLogout" data-provider="fetchData" finished-at="2020-11-12T11:52:23 IST" duration-ms="12313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8091/fssopenbanking]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Newuser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Weekly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[InvalidSearch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndLogout -->
+      </class> <!-- testcases.StandingOrder -->
+      <class name="testcases.Transactions">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.Transactions@65e98b1c]" started-at="2020-11-12T11:48:30 IST" name="setData" finished-at="2020-11-12T11:48:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.Transactions@65e98b1c]" started-at="2020-11-12T11:52:01 IST" name="beforeClass" finished-at="2020-11-12T11:52:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Transactions@65e98b1c]" started-at="2020-11-12T11:52:01 IST" name="beforeMethod" finished-at="2020-11-12T11:52:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginAndLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Transactions@65e98b1c]" started-at="2020-11-12T11:52:01 IST" name="loginAndLogout" data-provider="fetchData" finished-at="2020-11-12T11:52:11 IST" duration-ms="10302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8091/fssopenbanking]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[karthik]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Karthik@1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[BOOKED]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[AIB Sanbox]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GBP]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[InvalidSearch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndLogout -->
+      </class> <!-- testcases.Transactions -->
+      <class name="testcases.OpenData">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.OpenData@2925bf5b]" started-at="2020-11-12T11:48:30 IST" name="setData" finished-at="2020-11-12T11:48:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.OpenData@2925bf5b]" started-at="2020-11-12T11:49:25 IST" name="beforeClass" finished-at="2020-11-12T11:49:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.OpenData@2925bf5b]" started-at="2020-11-12T11:49:25 IST" name="beforeMethod" finished-at="2020-11-12T11:49:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="OpenData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenData@2925bf5b]" started-at="2020-11-12T11:49:25 IST" name="OpenData" data-provider="fetchData" finished-at="2020-11-12T11:50:03 IST" duration-ms="37629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:8091/fssopenbanking]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aib]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenData -->
+      </class> <!-- testcases.OpenData -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
